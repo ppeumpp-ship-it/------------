@@ -221,6 +221,14 @@ section {
     height: 100%;
     background: linear-gradient(135deg, #e8e8e8 0%, #d0d0d0 100%);
     border-radius: 4px;
+    overflow: hidden;
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 /* Menu Section */
